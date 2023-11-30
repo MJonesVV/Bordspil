@@ -26,8 +26,10 @@ tones = {
 "A6": 1760,"AS6": 1865,"B6": 1976,"C7": 2093,"CS7": 2217,"D7": 2349,"DS7": 2489,"E7": 2637,"F7": 2794,"FS7": 2960,"G7": 3136,"GS7": 3322,"A7": 3520,
 "AS7": 3729,"B7": 3951,"C8": 4186,"CS8": 4435,"D8": 4699,"DS8": 4978
 }
+#Tónlist
 kastad = ["AS6", 0, 0, "B6",0, "C7", 0, 0, "A6", 0, "E7"]
 victory = ["DS6",0, 0 ,"G6",0, 0,"C7",0, 0,"D7", 0,"AS6", 0,"C7",0,"A6", 0,0,"F6", 0 ,0, "G6", 0,0,0]
+#Kóði til þess að tónlist virki, (stolið)
 def playtone(frequency):
     Hljod.duty_u16(1000)
     Hljod.freq(frequency)
@@ -83,6 +85,7 @@ def ten(tala):
             Ljos_Mid.value(0)
             
 listi = []
+#Það sem er í gangi
 while True:
     Hljod.duty_u16(0)
     ten(10)
