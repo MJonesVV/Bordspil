@@ -3,12 +3,12 @@ from random import *
 from time import *
 #Hvað ljós er hvað
 Ljos_TopLeft = Pin(12, Pin.OUT)
-Ljos_Left = Pin(11, Pin.OUT)
-Ljos_BotLeft = Pin(10, Pin.OUT)
-Ljos_Mid = Pin(18, Pin.OUT)
-Ljos_TopRight = Pin(17, Pin.OUT)
-Ljos_Right = Pin(16, Pin.OUT)
-Ljos_BotRight = Pin(15, Pin.OUT)
+Ljos_Left = Pin(18, Pin.OUT)
+Ljos_BotLeft = Pin(16, Pin.OUT)
+Ljos_Mid = Pin(15, Pin.OUT)
+Ljos_TopRight = Pin(10, Pin.OUT)
+Ljos_Right = Pin(11, Pin.OUT)
+Ljos_BotRight = Pin(17, Pin.OUT)
 #Hljóð og takki og reed
 takki = Pin(13,Pin.IN,Pin.PULL_UP)
 Hljod = PWM(Pin(21))
