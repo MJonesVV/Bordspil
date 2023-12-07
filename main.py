@@ -31,7 +31,7 @@ kastad = ["AS6", 0, 0, "B6",0, "C7", 0, 0, "A6", 0, "E7"]
 victory = ["DS6",0, 0 ,"G6",0, 0,"C7",0, 0,"D7", 0,"AS6", 0,"C7",0,"A6", 0,0,"F6", 0 ,0, "G6", 0,0,0]
 #Kóði til þess að tónlist virki, (stolið)
 def playtone(frequency):
-    Hljod.duty_u16(1000)
+    Hljod.duty_u16(40000)
     Hljod.freq(frequency)
 
 def bequiet():
